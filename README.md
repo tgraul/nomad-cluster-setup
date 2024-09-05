@@ -11,13 +11,13 @@ This project provides a simple way to set up a Nomad cluster with Consul and dep
 ## Installation
 
 1. Clone this repository:
-    ```bash
+    ```
     git clone https://github.com/yourusername/nomad-cluster-setup.git
     cd nomad-cluster-setup
     ```
 
 2. Run the setup scripts to install Nomad and Consul:
-    ```bash
+    ```
     ./scripts/install_nomad.sh
     ./scripts/install_consul.sh
     ./scripts/setup_cluster.sh
@@ -26,7 +26,7 @@ This project provides a simple way to set up a Nomad cluster with Consul and dep
 ## Example Deployment
 
 To deploy the sample web application (NGINX) using Nomad, run the following command:
-    ```bash
+    ```
     nomad job run example_jobs/example_web_service.nomad
     ```
 
